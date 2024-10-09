@@ -8,7 +8,7 @@ import string
 #define a set of random characters
 letters = string.ascii_lowercase
 # Set packet size to desired byte size
-PACKET_SIZE = 2**22 
+PACKET_SIZE = 2**23
 TOTAL_MESSAGES = 10
 test_packet = "\x00"*max(PACKET_SIZE, 0) 
 
